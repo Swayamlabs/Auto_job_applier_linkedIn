@@ -5,7 +5,7 @@
 search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Cyber Identity & Access Management", ]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "United States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "Worldwide"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
@@ -58,7 +58,7 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 ## >>>>>>>>>>> RELATED SETTING <<<<<<<<<<<
 
 # Pause after applying filters to let you modify the search results and filters?
-pause_after_filters = True         # True or False, Note: True or False are case-sensitive
+pause_after_filters = False         # True or False, Note: True or False are case-sensitive
 
 ##
 
@@ -83,7 +83,7 @@ security_clearance = False         # True or False, Note: True or False are case
 did_masters = False                 # True or False, Note: True or False are case-sensitive
 
 # Avoid applying to jobs if their required experience is above your current_experience. (Set value as -1 if you want to apply to all ignoring their required experience...)
-current_experience = 5             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
+current_experience = 13             # Integers > -2 (Ex: -1, 0, 1, 2, 3, 4...)
 ##
 
 
