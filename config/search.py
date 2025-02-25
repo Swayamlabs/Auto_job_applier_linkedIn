@@ -5,7 +5,7 @@
 search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Cyber Identity & Access Management", ]
 
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "United states"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "Unisted States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 30                 # Only numbers greater than 0... Don't put in quotes
