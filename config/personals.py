@@ -21,7 +21,7 @@ Note: If left empty as "", the bot will fill in location of jobs location.
 # Address, not so common question but some job applications make it required!
 street = "Flat no A110, Vertex Panache"
 state = "Telangana"
-zipcode = "12345"
+zipcode = "500075"
 country = "India"
 
 ## US Equal Opportunity questions

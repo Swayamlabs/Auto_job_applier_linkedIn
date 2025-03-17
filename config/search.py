@@ -2,13 +2,15 @@
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Cyber Identity & Access Management","Project Manager" ]
+search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Project Manager" ]
 
+#for Saudi use following
+search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management","Cyber Security Engineer"]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "Canada"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "United Kingdom"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
-switch_number = 15                 # Only numbers greater than 0... Don't put in quotes
+switch_number = 10               # Only numbers greater than 0... Don't put in quotes
 
 # Do you want to randomize the search order for search_terms?
 randomize_search_order = False     # True of False, Note: True or False are case-sensitive
@@ -58,7 +60,7 @@ fair_chance_employer = False       # True or False, Note: True or False are case
 ## >>>>>>>>>>> RELATED SETTING <<<<<<<<<<<
 
 # Pause after applying filters to let you modify the search results and filters?
-pause_after_filters = True         # True or False, Note: True or False are case-sensitive
+pause_after_filters = False         # True or False, Note: True or False are case-sensitive
 
 ##
 

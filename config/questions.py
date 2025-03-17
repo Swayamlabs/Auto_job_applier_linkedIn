@@ -99,13 +99,16 @@ recent_employer = "Providence India" # "", "Lala Company", "Google", "Snowflake"
 confidence_level = "8"             # Any number between "1" to "10" including 1 and 10, put it in quotes ""
 ##
 
-
+Marital_Status = "single"
+Are_you_located_in_Riyadh = "No"
+How_many_years_of_experience_in_Cybersecurity = "4"
+proficiency_in_English = "Professional"
 
 # >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
 
 ## Allow Manual Inputs
 # Should the tool pause before every submit application during easy apply to let you check the information?
-pause_before_submit = True         # True or False, Note: True or False are case-sensitive
+pause_before_submit = False         # True or False, Note: True or False are case-sensitive
 '''
 Note: Will be treated as False if `run_in_background = True`
 '''
