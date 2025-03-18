@@ -5,12 +5,12 @@
 #search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Project Manager" ]
 
 #for Saudi use following
-search_terms = [ "IAM", "Security IAM Engineer","Idnetity Access Management","IAM Engineer", "IAM Developer", "Identity & Access Management","Cyber Security Engineer","IAM specialist"]
+search_terms = [ "IAM", "Security IAM Engineer","Idnetity Access Management","IAM Engineer", "IAM Developer","CyberArk Engineer","Identity Management", "Identity & Access Management","Cyber Security Engineer","IAM specialist"]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "Canada"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "United States"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
-switch_number = 6               # Only numbers greater than 0... Don't put in quotes
+switch_number = 8               # Only numbers greater than 0... Don't put in quotes
 
 # Do you want to randomize the search order for search_terms?
 randomize_search_order = False     # True of False, Note: True or False are case-sensitive
