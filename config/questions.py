@@ -91,6 +91,7 @@ Cover Letter
 '''
 Note: If left empty as "", the tool will not answer the question. However, note that some companies make it compulsory to be answered. Use \n to add line breaks.
 ''' 
+why_join ="I came across the IAM position you posted and was impressed by the job description. As a seasoned Cybersecurity Leader, I possess the skills and expertise that align with the role."
 
 # Name of your most recent employer
 recent_employer = "Providence India" # "", "Lala Company", "Google", "Snowflake", "Databricks"

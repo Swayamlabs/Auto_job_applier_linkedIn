@@ -435,6 +435,8 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str)
                 elif 'gender' in label or 'sex' in label: answer = gender
                 elif 'disability' in label: answer = disability_status
                 elif 'proficiency' in label: answer = 'Professional'
+                elif 'Marital Status' in label: answer = 'Single' # if not work remove it sumit
+                elif 'years of experience in Cybersecurity' in label: answer = '4' #if not worked remove it
                 else: answer = answer_common_questions(label,answer)
                 try: select.select_by_visible_text(answer)
                 except NoSuchElementException as e:
@@ -593,6 +595,7 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str)
             if not prev_answer or overwrite_previous_answers:
                 if 'summary' in label: answer = linkedin_summary
                 elif 'cover' in label: answer = cover_letter
+                elif 'why want to join' in label: answer = why_join
                 text_area.clear()
                 text_area.send_keys(answer)
                 if answer == "": 
