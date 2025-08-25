@@ -2,8 +2,8 @@
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-# You can customize these based on your job preferences and target roles
-search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Java Developer", "Full Stack Developer", "Backend Developer", "Frontend Developer", "DevOps Engineer", "Data Engineer", "Machine Learning Engineer"]
+#for Saudi use following
+search_terms = [ "IAM Architect","PAM Manager","IAM", "IAM Engineer","Idnetity Access Management", "IAM Developer","CyberArk Engineer","IAM specialist"]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
 search_location = "ireland"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
