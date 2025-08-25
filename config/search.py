@@ -2,12 +2,10 @@
 
 # These Sentences are Searched in LinkedIn
 # Enter your search terms inside '[ ]' with quotes ' "searching title" ' for each search followed by comma ', ' Eg: ["Software Engineer", "Software Developer", "Selenium Developer"]
-#search_terms = ["Identity and Access Management", "IAM", "IAM Engineer", "IAM Developer", "Identity & Access Management", "Cyber Ark Engineer", "CyberArk", "Identity and Access Management Analyst", "Identity Management Consultant", "Project Manager" ]
-
-#for Saudi use following
-search_terms = [ "IAM Architect","PAM Manager","IAM", "Security IAM Engineer","Idnetity Access Management","IAM Engineer", "IAM Developer","CyberArk Engineer","Cyber Security Engineer","IAM specialist"]
+# You can customize these based on your job preferences and target roles
+search_terms = ["Software Engineer", "Software Developer", "Python Developer", "Java Developer", "Full Stack Developer", "Backend Developer", "Frontend Developer", "DevOps Engineer", "Data Engineer", "Machine Learning Engineer"]
 # Search location, this will be filled in "City, state, or zip code" search box. If left empty as "", tool will not fill it.
-search_location = "Worldwide"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
+search_location = "ireland"               # Some valid examples: "", "United States", "India", "Chicago, Illinois, United States", "90001, Los Angeles, California, United States", "Bengaluru, Karnataka, India", etc.
 
 # After how many number of applications in current search should the bot switch to next search? 
 switch_number = 8               # Only numbers greater than 0... Don't put in quotes
@@ -77,6 +75,10 @@ about_company_good_words = []      # (dynamic multiple search) or leave empty as
 
 # Avoid applying to these companies if they have these bad words in their 'Job Description' section...  (In development)
 bad_words = ["US Citizen","USA Citizen","No C2C", "No Corp2Corp", ".NET", "Embedded Programming", "Why do you want to work at"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["word_1", "phrase 1", "word word", "polygraph", "US Citizenship", "Security Clearance"]
+
+# Required keywords that must be present in job descriptions (AND condition - ALL must be present)
+# Leave empty as [] to disable this filter. Case Insensitive.
+required_keywords = ["visa sponsorship", "relocation assistance", "expat"]                     # (dynamic multiple search) or leave empty as []. Case Insensitive. Ex: ["visa sponsorship", "relocation assistance", "expat"]
 
 # Do you have an active Security Clearance? (True for Yes and False for No)
 security_clearance = False         # True or False, Note: True or False are case-sensitive

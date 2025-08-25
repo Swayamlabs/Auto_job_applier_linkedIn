@@ -364,6 +364,19 @@ def get_job_description(
                 skipReason = "Found a Bad Word in About Job"
                 skip = True
                 break
+        
+        # Check for required keywords (AND condition - ALL must be present)
+        if not skip and required_keywords:
+            missing_keywords = []
+            for keyword in required_keywords:
+                if keyword.lower() not in jobDescriptionLow:
+                    missing_keywords.append(keyword)
+            
+            if missing_keywords:
+                skipMessage = f'\n{jobDescription}\n\nMissing required keywords: {", ".join(missing_keywords)}. Skipping this job!\n'
+                skipReason = "Missing required keywords in job description"
+                skip = True
+        
         if not skip and security_clearance == False and ('polygraph' in jobDescriptionLow or 'clearance' in jobDescriptionLow or 'secret' in jobDescriptionLow):
             skipMessage = f'\n{jobDescription}\n\nFound "Clearance" or "Polygraph". Skipping this job!\n'
             skipReason = "Asking for Security clearance"

@@ -48,6 +48,12 @@ Click on above image to watch the demo or use this link https://youtu.be/gMbB1fW
 1. Open `personals.py` file in `/config` folder and enter your details like name, phone number, address, etc. Whatever you want to fill in your applications.
 2. Open `questions.py` file in `/config` folder and enter your answers for application questions, configure wether you want the bot to pause before submission or pause if it can't answer unknown questions.
 3. Open `search.py` file in `/config` folder and enter your search preferences, job filters, configure the bot as per your needs (these settings decide which jobs to apply for or skip).
+   - **Search Terms**: Customize the job titles you want to search for (e.g., "Software Engineer", "Data Scientist")
+   - **Required Keywords**: Set keywords that must be present in job descriptions (e.g., "visa sponsorship", "relocation assistance", "expat") - ALL keywords must be present (AND condition)
+   - **Bad Words**: Set keywords that will cause jobs to be skipped if found in descriptions
+   - **Location**: Set your preferred job location
+   - **Experience Level**: Filter by experience requirements
+   - **Salary**: Set minimum salary requirements
 4. Open `secrets.py` file in `/config` folder and enter your LinkedIn username, password to login and OpenAI API Key for generation of job tailored resumes and cover letters (This entire step is optional). If you do not provide username or password or leave them as default, it will login with saved profile in browser, if failed will ask you to login manually.
 5. Open `settings.py` file in `/config` folder to configure the bot settings like, keep screen awake, click intervals (click intervals are randomized to seem like human behavior), run in background, stealth mode (to avoid bot detection), etc. as per your needs.
 6. (Optional) Don't forget to add you default resume in the location you mentioned in `default_resume_path = "all resumes/default/resume.pdf"` given in `/config/questions.py`. If one is not provided, it will use your previous resume submitted in LinkedIn or (In Development) generate custom resume if OpenAI APT key is provided!
@@ -207,6 +213,7 @@ Once your code is tested, your changes will be merged to the `main` branch in ne
 - Collects skills required (In Development)
 - Collects experience required and skips if not applicable to you, must be configured
 - Auto Filters jobs based on your experience and black list key words
+- **Required Keywords Filter**: Filter jobs to only apply to those containing specific keywords in job descriptions (e.g., "visa sponsorship", "relocation assistance", "expat")
 - Skips blacklisted jobs
 - Can be configured to skip jobs requiring Security Clearance
 - You can add exceptions to blacklist key words
